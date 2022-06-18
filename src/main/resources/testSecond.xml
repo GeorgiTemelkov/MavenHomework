@@ -1,0 +1,11 @@
+<suite name="Test-with-=Parameters" parallel="methods" thread-count="1" >
+    <parameter name ="a" value = "20"/>
+    <parameter name ="b" value = "40"/>
+    <test name="Test-method test" group-by-instances="true">
+        <classes>
+            <class name = "com.mentormate.TestNGSecond">
+
+            </class>
+        </classes>
+    </test>
+</suite>
