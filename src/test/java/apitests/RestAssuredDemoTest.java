@@ -38,7 +38,7 @@ public class RestAssuredDemoTest {
 
     @BeforeTest
     public void setUp(){
-        baseURI ="http://training.skillo-bg.com:3100";
+        baseURI ="http://training.skillo-bg.com";
     }
 
 
